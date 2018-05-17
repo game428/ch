@@ -1,0 +1,251 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+ul,li,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:#333;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+body{
+  font: 20px/1.5 "Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;
+  color:#333;
+}
+i,em{
+  font-style: normal
+}
+.clear_both{
+  clear:both
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.wrap{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.split{
+  height: .533rem;
+  background-color: #f5f5f5;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+  color: #808080;
+  font-size: .8rem;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #808080;
+  font-size: .8rem;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #808080;
+  font-size: .8rem;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #808080;
+  font-size: .8rem;
+}
+/*header*/
+.header{
+  height: 2.4rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  padding: 0 .53rem;
+}
+.back{
+  -webkit-flex: 0 0 3.2rem;
+  flex: 0 0 3.2rem;
+  height: 2.3rem;
+  line-height: 2.3rem;
+  font-size: .9rem;
+  color:#4c4c4c;
+}
+.back i{
+  font-size: .9rem;
+  padding-top: .1rem;
+  padding-right: .1rem;
+}
+.title{
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 1.06rem;
+  text-align: center;
+  margin-right: 3.2rem;
+}
+/*alert_cont*/
+.popup_cont{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  z-index: 999;
+}
+.popup_cover{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.3);
+}
+.popup_body{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  width: 16rem;
+  margin: 0 auto;
+  background-color: #1a1a1a;
+  height: 10.66rem;
+  border-radius: .3rem;
+  color:#fff;
+  box-sizing: border-box;
+  padding: 1.1rem;
+}
+.popup_text{
+  font-size: .9rem;
+  height: 6.46rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-bottom: 1.4rem;
+}
+.popup_txt{
+  text-align: center;
+}
+.popup_btn{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  font-size: .8rem;
+}
+.popup_err,.popup_suc{
+  -webkit-flex: 0 0 6.4rem;
+  flex: 0 0 6.4rem;
+  height: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 2rem;
+  border: 1px solid #fff;
+  border-radius: .1rem;
+}
+.popup_hide{
+  -webkit-flex: 1;
+  flex: 1;
+  height: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 2rem;
+  border: 1px solid #fff;
+  border-radius: .1rem;
+}
+/*download_cont*/
+.download_cont{
+  height: 3.46rem;
+  background-color: rgba(0,0,0,.7);
+  position: fixed;
+  bottom:0;
+  left: 0;
+  right: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 99;
+}
+.download_cont.top{
+  bottom: 3.2rem;
+}
+.download_logo{
+  -webkit-flex: 0 0 1.81rem;
+  flex: 0 0 1.81rem;
+  height: 1.81rem;
+  margin-left: .53rem;
+  margin-right: .3rem;
+}
+.download_logo img{
+  width: 100%;
+  height: 100%;
+}
+.download_txt{
+  -webkit-flex: 1;
+  flex: 1;
+  color:#fff;
+  font-size: .65rem;
+  white-space: nowrap;
+}
+.download_title{
+  font-size: .8rem;
+}
+.download_btn{
+  -webkit-flex: 0 0 4rem;
+  flex: 0 0 4rem;
+  height: 1.49rem;
+  line-height: 1.49rem;
+  background-color: #048adf;
+  color:#fff;
+  border-radius: .75rem;
+  font-size: .7rem;
+  text-align: center;
+  margin: 0 .5rem;
+}
+.download_close{
+  -webkit-flex: 0 0 1.2rem;
+  flex: 0 0 1.2rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  border-radius: .6rem;
+  background-color: #fff;
+  color:#666;
+  margin-right: .53rem;
+}
+/*浮窗*/
+.floating_cont{
+  position: absolute;
+  top: -2rem;
+  left: 0;
+  right: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.floating_text{
+  font-size: .7rem;
+  min-width: 4rem;
+  padding: 0 1rem;
+  line-height: 1.5rem;
+  border-radius: .3rem;
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+}
+.floating_text i{
+  font-size: .7rem;
+}
+.floating_text .icon-cuowu{
+  color:red;
+}
+.floating_text .icon-tongguo{
+  color: #46d859;
+}

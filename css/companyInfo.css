@@ -1,0 +1,222 @@
+body{
+  background-color: #f5f5f5;
+}
+.g_container{
+  position: absolute;
+  top: 2.4rem;
+  left: 0;
+  right: 0;
+  bottom:0;
+  overflow: auto;
+  -webkit-overflow-scrolling:touch;
+}
+.swiper-slide{height: auto;}
+/*banner*/
+.banner{
+  height: 9.06rem;
+}
+.banner img{
+  width: 100%;
+  height: 100%;
+}
+/*job_info*/
+.job_info{
+  padding-bottom: .53rem;
+  background-color: #fff;
+}
+.job_info_title{
+  height: 2.93rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 0 .53rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+  font-weight: 600;
+  margin-bottom: .53rem;
+  overflow: hidden;
+}
+.job_info_name{
+  font-size: .9rem;
+}
+.job_info_logo{
+  -webkit-flex: 0 0 1.86rem;
+  flex: 0 0 1.86rem;
+  height: 1.86rem;
+  margin-left: .53rem;
+}
+.job_info_logo img{
+  width: 100%;
+  height: 100%;
+}
+.job_info_item{
+  min-height: 1.86rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 0 .53rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: .8rem;
+}
+.job_info_label{
+  -webkit-flex: 0 0 4rem;
+  flex: 0 0 4rem;
+  color:#666;
+}
+.job_info_item:last-child{
+  border-bottom: 0;
+}
+/*company_introduce*/
+.company_introduce{
+  text-indent: 1.5rem;
+  font-size: .75rem;
+  color:#4c4c4c;
+  padding: .8rem .53rem;
+  word-wrap:break-word;
+  word-break:break-all;
+  background-color: #fff;
+}
+/*hot_recruit*/
+.hot_recruit{
+  padding: 0 .53rem;
+  height: 2.93rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: .9rem;
+  font-weight: 600;
+  background-color: #fff;
+}
+.hot_recruit i{
+  color: #e72424;
+}
+/*job_item*/
+.job_item{
+  padding: .66rem .53rem;
+  background-color: #fff;
+  margin-bottom: .53rem;
+}
+.job_title{
+  font-size: .9rem;
+  font-weight: 600;
+}
+.job_label{
+  color:#666;
+  font-size: .64rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.job_label i{
+  font-size: .8rem;
+  margin-right: .2rem;
+}
+.label_address{
+
+}
+.label_exp{
+  margin: 0 1.5rem;
+}
+.label_money{
+  color:#ff8955;
+}
+.job_company{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.company_info{
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  overflow: hidden;
+  margin-right: .5rem;
+}
+.company_logo{
+  -webkit-flex: 0 0 1.33rem;
+  flex: 0 0 1.33rem;
+  height: 1.33rem;
+  /*box-sizing: border-box;*/
+  /*border-radius: 1px;*/
+  /*border: 1px solid #e6e6e6;*/
+}
+.company_logo img{
+  width: 100%;
+  height: 100%;
+}
+.company_name{
+  font-size: .8rem;
+  color:#666;
+  margin-left: .53rem;
+  margin-right: .3rem;
+}
+.company_state{
+  -webkit-flex: 0 0 3.2rem;
+  flex: 0 0 3.2rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: .53rem;
+  box-sizing: border-box;
+  border:1px solid #50af5b;
+  color:#50af5b;
+}
+.company_state i{
+  font-size: .53rem;
+}
+.job_time{
+  color:#808080;
+  font-size: .64rem;
+}
+/*轮播*/
+.banner .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.banner .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.init-loading{
+  text-align: center;
+  position: relative;
+  display: block;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: .8rem;
+  color:#048adf;
+}
